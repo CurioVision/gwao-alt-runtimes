@@ -1,0 +1,18 @@
+{
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "overrides": [
+    {
+      "files": ["*.spec.ts"],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "off"
+      }
+    }
+  ],
+  "rules": {
+    // TODO: Remove this rule when all types are implemented and 'any' placeholders are removed
+    "@typescript-eslint/no-explicit-any": "off"
+  },
+  "root": true
+}
