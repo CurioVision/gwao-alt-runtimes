@@ -1,5 +1,7 @@
 # GWAO Node.js Types
 
+[![npm version](https://badge.fury.io/js/@curiovision%2Fgwao-alt-runtimes.svg)](https://badge.fury.io/js/@curiovision%2Fgwao-alt-runtimes)
+
 This package contains types for the Google Workspace Add-ons for Alternate Runtimes API.
 
 It is based on [google.apps.card.v1](https://developers.google.com/workspace/add-ons/reference/rpc/google.apps.card.v1#index)
