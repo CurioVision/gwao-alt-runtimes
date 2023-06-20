@@ -1,14 +1,16 @@
 {
-  "name": "@curiovision/gwao-node",
+  "name": "@curiovision/gwao-alt-runtimes",
   "version": "0.0.1",
   "description": "Node.js TypeScript types library for Google Workspace Add-Ons for Alternate Runtimes.",
-  "main": "index",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "rimraf ./build && tsc",
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
