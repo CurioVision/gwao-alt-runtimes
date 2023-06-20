@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40gctools-components%2Fgwao-nodejs-types.svg)](https://badge.fury.io/js/%40gctools-components%2Fgwao-nodejs-types)
 
-This library contains types for the Google Workspace Add-ons for Alternate Runtimes API.
+This package contains types for the Google Workspace Add-ons for Alternate Runtimes API.
 
 It is based on [google.apps.card.v1](https://developers.google.com/workspace/add-ons/reference/rpc/google.apps.card.v1#index)
 
