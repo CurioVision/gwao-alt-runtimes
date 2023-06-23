@@ -1,6 +1,14 @@
 import { Action } from '../Action'
 import { Suggestions } from '../Suggestions'
 
+/**
+ * A field in which users can enter text. Supports suggestions and on-change actions.
+ *
+ * Chat apps receive and can process the value of entered text during form input events.
+ * For details about working with form inputs, see [Receive form data](https://developers.google.com/chat/how-tos/dialogs#receive_form_data_from_dialogs).
+ *
+ * When you need to collect undefined or abstract data from users, use a text input. To collect defined or enumerated data from users, use the SelectionInput widget.
+ */
 export type TextInput = {
   textInput: TextInputMarkup
 }

@@ -1,5 +1,10 @@
 import { Action } from './Action'
 
+/**
+ * Either a toggle-style switch or a checkbox inside a decoratedText widget.
+ *
+ * Only supported in the decoratedText widget.
+ */
 export type SwitchControl = {
   /**
    * The name of the switch control.

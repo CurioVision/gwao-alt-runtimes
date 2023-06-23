@@ -47,6 +47,11 @@ type KnownIcon = {
     | 'VIDEO_PLAY'
 }
 
+/**
+ * An icon displayed in a widget on a card.
+ *
+ * Supports built-in and custom icons.
+ */
 export type Icon = {
   altText?: string
   imageType?: ImageType

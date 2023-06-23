@@ -1,6 +1,11 @@
 import { Icon } from './Icon'
 import { OnClick } from './OnClick'
 
+/**
+ * A text, icon, or text and icon button that users can click.
+ *
+ * To make an image a clickable button, specify an Image (not an ImageComponent) and set an onClick action.
+ */
 export type Button = {
   /**
    * The text displayed inside the button.

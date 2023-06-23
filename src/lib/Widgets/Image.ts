@@ -1,5 +1,8 @@
 import { OnClick } from '../OnClick'
 
+/**
+ * An image that is specified by a URL and can have an onClick action.
+ */
 export type Image = {
   image: ImageMarkup
 }
