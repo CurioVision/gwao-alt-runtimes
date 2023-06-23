@@ -1,5 +1,5 @@
 import { Action as ActionMarkup } from './Action'
-import { Card } from './Card'
+import { Card as CardMarkup } from './Card'
 import { OneOf } from './type-utils/OneOf'
 
 export type OnClick = OneOf<Action | OpenLink | OpenDynamicLinkAction | Card>
@@ -32,4 +32,13 @@ export type OpenLinkMarkup = {
  */
 export type OpenDynamicLinkAction = {
   openDynamicLinkAction: ActionMarkup
+}
+
+/**
+ * A new card is pushed to the card stack after clicking if specified.
+ *
+ * Supported by Google Workspace Add-ons, but not Chat apps.
+ */
+export type Card = {
+  card: CardMarkup
 }
