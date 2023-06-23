@@ -1,9 +1,14 @@
+import { Action } from '../Action'
 import { Button } from '../Button'
 import { Icon } from '../Icon'
 import { OnClick } from '../OnClick'
 import { SwitchControl } from '../SwitchControl'
 import { OneOf } from '../type-utils/OneOf'
 
+/**
+ * A widget that displays text with optional decorations such as a label above or below the text,
+ * an icon in front of the text, a selection widget, or a button after the text.
+ */
 export type DecoratedText = {
   decoratedText: DecoratedTextMarkup
 }
@@ -77,16 +82,8 @@ type DecoratedTextMarkup = {
     }
   | {
       /**
+       * An action that executes when the object is clicked.
        */
-      action: {
-        function: string
-        parameters?: [
-          {
-            key: string
-            value: string
-          }
-        ]
-        loadIndicator: 'NONE' | 'SPINNER'
-      }
+      action: Action
     }
 >
