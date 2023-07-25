@@ -4,6 +4,7 @@ import { Image } from './Image'
 import { SelectionInput } from './SelectionInput'
 import { TextInput } from './TextInput'
 import { TextParagraph } from './TextParagraph'
+import { DateTimePicker } from './DateTimePicker'
 
 export type Widget = {
   /**
@@ -19,7 +20,7 @@ type WidgetTypes =
   | ButtonList
   | TextInput
   | SelectionInput
-// | DateTimePicker
+  | DateTimePicker
 // | Divider
 // | Grid
 // | Columns
