@@ -1,3 +1,4 @@
+import { Color } from './Color'
 import { Icon } from './Icon'
 import { OnClick } from './OnClick'
 
@@ -22,12 +23,7 @@ export type Button = {
    *
    * If unset, the image background is white and the font color is blue.
    */
-  color?: {
-    red: number
-    green: number
-    blue: number
-    alpha?: number
-  }
+  color?: Color
 
   /**
    * The action to perform when the button is clicked, such as opening a hyperlink or running a custom function.
