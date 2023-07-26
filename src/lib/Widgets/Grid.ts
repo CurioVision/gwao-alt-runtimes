@@ -11,6 +11,10 @@ import { OnClick } from '../OnClick'
  * For responsive columns, or to include more than text or images, use Columns.
  */
 export type Grid = {
+  grid: GridMarkup
+}
+
+export type GridMarkup = {
   /**
    * The text that displays in the grid header.
    */

@@ -7,6 +7,10 @@ import { Action } from '../Action'
  * If users input an invalid date or time, the picker shows an error that prompts users to input the information correctly.
  */
 export type DateTimePicker = {
+  dateTimePicker: DateTimePickerMarkup
+}
+
+export type DateTimePickerMarkup = {
   /**
    * The name by which the DateTimePicker is identified in a form input event.
    */
