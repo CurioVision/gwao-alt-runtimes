@@ -26,9 +26,9 @@ export type Button = {
   color?: Color
 
   /**
-   * The action to perform when the button is clicked, such as opening a hyperlink or running a custom function.
+   * Required. The action to perform when a user clicks the button, such as opening a hyperlink or running a custom function.
    */
-  onClick?: OnClick
+  onClick: OnClick
 
   /**
    * If true, the button is displayed in an inactive state and doesn't respond to user actions.

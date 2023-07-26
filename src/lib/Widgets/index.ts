@@ -6,6 +6,7 @@ import { TextInput } from './TextInput'
 import { TextParagraph } from './TextParagraph'
 import { DateTimePicker } from './DateTimePicker'
 import { Divider } from './Divider'
+import { Grid } from './Grid'
 
 export type Widget = {
   /**
@@ -23,5 +24,5 @@ type WidgetTypes =
   | SelectionInput
   | DateTimePicker
   | Divider
-// | Grid
+  | Grid
 // | Columns
