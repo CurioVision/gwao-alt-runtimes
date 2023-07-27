@@ -1,16 +1,16 @@
 import { BorderStyle } from '../BorderStyle'
 import { OnClick } from '../OnClick'
 
-/**
- * Displays a grid with a collection of items.
- *
- * A grid supports any number of columns and items.
- * The number of rows is determined by the upper bounds of the number items divided by the number of columns.
- * A grid with 10 items and 2 columns has 5 rows. A grid with 11 items and 2 columns has 6 rows.
- *
- * For responsive columns, or to include more than text or images, use Columns.
- */
 export type Grid = {
+  /**
+   * Displays a grid with a collection of items.
+   *
+   * A grid supports any number of columns and items.
+   * The number of rows is determined by the upper bounds of the number items divided by the number of columns.
+   * A grid with 10 items and 2 columns has 5 rows. A grid with 11 items and 2 columns has 6 rows.
+   *
+   * For responsive columns, or to include more than text or images, use Columns.
+   */
   grid: GridMarkup
 }
 

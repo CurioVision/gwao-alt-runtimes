@@ -1,15 +1,15 @@
 import { Action } from '../Action'
 
-/**
- * A widget that creates one or more UI items that users can select.
- * For example, a dropdown menu or checkboxes. You can use this widget to collect data that can be predicted or enumerated.
- *
- * Chat apps can process the value of items that users select or input.
- * For details about working with form inputs, see [Receive form data](https://developers.google.com/chat/how-tos/dialogs#receive_form_data_from_dialogs).
- *
- * To collect undefined or abstract data from users, use the TextInput widget.
- */
 export type SelectionInput = {
+  /**
+   * A widget that creates one or more UI items that users can select.
+   * For example, a dropdown menu or checkboxes. You can use this widget to collect data that can be predicted or enumerated.
+   *
+   * Chat apps can process the value of items that users select or input.
+   * For details about working with form inputs, see [Receive form data](https://developers.google.com/chat/how-tos/dialogs#receive_form_data_from_dialogs).
+   *
+   * To collect undefined or abstract data from users, use the TextInput widget.
+   */
   selectionInput: SelectionInputMarkup
 }
 

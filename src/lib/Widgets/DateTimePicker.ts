@@ -1,12 +1,12 @@
 import { Action } from '../Action'
 
+export type DateTimePicker = {
 /**
  * Lets users input a date, a time, or both a date and a time.
  *
  * Users can input text or use the picker to select dates and times.
  * If users input an invalid date or time, the picker shows an error that prompts users to input the information correctly.
  */
-export type DateTimePicker = {
   dateTimePicker: DateTimePickerMarkup
 }
 

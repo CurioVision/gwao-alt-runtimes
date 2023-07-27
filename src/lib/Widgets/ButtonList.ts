@@ -1,9 +1,9 @@
 import { Button } from '../Button'
 
-/**
- * A list of buttons layed out horizontally.
- */
 export type ButtonList = {
+  /**
+   * A list of buttons layed out horizontally.
+   */
   buttonList: ButtonListMarkup
 }
 
