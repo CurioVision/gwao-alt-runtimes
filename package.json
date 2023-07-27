@@ -1,5 +1,5 @@
 {
-  "name": "@curiovision/gwao-alt-runtimes",
+  "name": "@curiovision/gwao-nodejs",
   "version": "1.1.5",
   "description": "Node.js TypeScript types library for Google Workspace Add-Ons for Alternate Runtimes.",
   "main": "build/index.js",

@@ -1,6 +1,6 @@
 # GWAO Node.js Types
 
-[![npm version](https://badge.fury.io/js/@curiovision%2Fgwao-alt-runtimes.svg)](https://badge.fury.io/js/@curiovision%2Fgwao-alt-runtimes)
+[![npm version](https://badge.fury.io/js/@curiovision%2Fgwao-nodejs.svg)](https://badge.fury.io/js/@curiovision%2Fgwao-nodejs)
 
 ---
 
