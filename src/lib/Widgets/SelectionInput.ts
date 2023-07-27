@@ -17,7 +17,7 @@ type SelectionInputMarkup = {
   /**
    * The name that identifies the selection input in a form input event.
    */
-  name?: string
+  name: string
 
   /**
    * The text that appears above the selection input field in the user interface.
