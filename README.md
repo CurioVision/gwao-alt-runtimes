@@ -19,3 +19,10 @@ To my knowledge, there is no official package for the CardFramework json types y
 Since this is just a types library, I haven't added a testing framework. Instead, the `*.spec.ts` files provide a place to write example assignments using each type. We can then use IDE typechecking/typescript build in order to ensure the given types behave as expected.
 
 In most cases, the assignments in the `*.spec.ts` files have been pulled straight from example JSON snippets within the official Google documentation.
+
+### Publishing to NPM
+
+This repository is setup with a Github Action to automatically publish to NPM for every tagged release. To use it, run:
+1. `npm version [build|patch]`
+2. `git push`
+3. `git push --tags`
