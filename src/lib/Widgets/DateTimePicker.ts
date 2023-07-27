@@ -10,7 +10,7 @@ export type DateTimePicker = {
   dateTimePicker: DateTimePickerMarkup
 }
 
-export type DateTimePickerMarkup = {
+type DateTimePickerMarkup = {
   /**
    * The name by which the DateTimePicker is identified in a form input event.
    */
@@ -26,12 +26,12 @@ export type DateTimePickerMarkup = {
   /**
    * Whether the widget supports inputting a date, a time, or the date and time.
    */
-  type: 'DATE' | 'TIME' | 'DATE_AND_TIME'
+  type: DateTimePickerType
 
   /**
    * The default value displayed in the widget, in milliseconds since Unix epoch time.
    *
-   * Specify the value based on the type of picker:
+   * Specify the value based on the type of picker (DateTimePickerType):
    *
    * DATE_AND_TIME: a calendar date and time in UTC. For example, to represent January 1, 2023 at 12:00 PM UTC, use 1672574400000.
    * DATE_ONLY: a calendar date at 00:00:00 UTC. For example, to represent January 1, 2023, use 1672531200000.
@@ -49,3 +49,5 @@ export type DateTimePickerMarkup = {
    */
   onChangeAction?: Action
 }
+
+type DateTimePickerType = 'DATE_ONLY' | 'TIME_ONLY' | 'DATE_AND_TIME'
