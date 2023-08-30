@@ -11,7 +11,12 @@ const test: ButtonList = {
           blue: 1,
           alpha: 1
         },
-        disabled: true
+        disabled: true,
+        onClick: {
+          openLink: {
+            url: 'https://example.com/edit'
+          }
+        }
       },
       {
         icon: {
