@@ -7,11 +7,12 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "build:watch": "rimraf ./build && tsc --watch",
+    "build:prod": "rimraf ./build && tsc -p tsconfig.prod.json",
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "prepare": "husky install",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build:prod"
   },
   "repository": {
     "type": "git",
