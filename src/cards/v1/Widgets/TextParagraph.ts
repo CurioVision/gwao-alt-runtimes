@@ -10,6 +10,6 @@ export type TextParagraph = {
   textParagraph: TextParagraphMarkup
 }
 
-export type TextParagraphMarkup = {
+type TextParagraphMarkup = {
   text: string
 }
