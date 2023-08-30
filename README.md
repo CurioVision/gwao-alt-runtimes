@@ -30,6 +30,6 @@ In most cases, the assignments in the `*.spec.ts` files have been pulled straigh
 
 This repository is setup with a Github Action to automatically publish to NPM for every tagged release. To use it, run:
 
-1. `npm version [build|patch]`
+1. `npm version [minor|patch]`
 2. `git push`
 3. `git push --tags`
