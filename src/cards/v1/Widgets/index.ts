@@ -8,4 +8,4 @@ export * from './SelectionInput'
 export * from './TextInput'
 export * from './TextParagraph'
 
-export * from './Widget'
+export * from '../Widget'

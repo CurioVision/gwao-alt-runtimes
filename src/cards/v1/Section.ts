@@ -1,4 +1,4 @@
-import { Widget } from './Widgets/Widget'
+import { Widget } from './Widget'
 
 /**
  * A section contains a collection of widgets that are rendered vertically in the order that they're specified.

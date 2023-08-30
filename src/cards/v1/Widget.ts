@@ -1,12 +1,12 @@
-import { ButtonList } from './ButtonList'
-import { DecoratedText } from './DecoratedText'
-import { Image } from './Image'
-import { SelectionInput } from './SelectionInput'
-import { TextInput } from './TextInput'
-import { TextParagraph } from './TextParagraph'
-import { DateTimePicker } from './DateTimePicker'
-import { Divider } from './Divider'
-import { Grid } from './Grid'
+import { ButtonList } from './Widgets/ButtonList'
+import { DecoratedText } from './Widgets/DecoratedText'
+import { Image } from './Widgets/Image'
+import { SelectionInput } from './Widgets/SelectionInput'
+import { TextInput } from './Widgets/TextInput'
+import { TextParagraph } from './Widgets/TextParagraph'
+import { DateTimePicker } from './Widgets/DateTimePicker'
+import { Divider } from './Widgets/Divider'
+import { Grid } from './Widgets/Grid'
 
 export type Widget = {
   /**
