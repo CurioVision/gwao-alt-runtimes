@@ -14,6 +14,12 @@ It is based on [google.apps.card.v1](https://developers.google.com/workspace/add
 
 To my knowledge, there is no official package for the CardFramework json types yet. This package fills that gap.
 
+## Development
+
+### Building
+
+To build, run `npm run build`. You can also run `npm run build:watch` to automatically rebuild the code whenever changes are made.
+
 ### Tests
 
 Since this is just a types library, I haven't added a testing framework. Instead, the `*.spec.ts` files provide a place to write example assignments using each type. We can then use IDE typechecking/typescript build in order to ensure the given types behave as expected.
@@ -23,6 +29,7 @@ In most cases, the assignments in the `*.spec.ts` files have been pulled straigh
 ### Publishing to NPM
 
 This repository is setup with a Github Action to automatically publish to NPM for every tagged release. To use it, run:
+
 1. `npm version [build|patch]`
 2. `git push`
 3. `git push --tags`
