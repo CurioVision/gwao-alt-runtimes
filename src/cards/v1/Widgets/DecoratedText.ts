@@ -1,9 +1,9 @@
+import { OneOf } from '../../../type-utils/OneOf'
 import { Action } from '../Action'
 import { Button } from '../Button'
 import { Icon } from '../Icon'
 import { OnClick } from '../OnClick'
 import { SwitchControl } from '../SwitchControl'
-import { OneOf } from '../type-utils/OneOf'
 
 export type DecoratedText = {
   /**

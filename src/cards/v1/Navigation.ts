@@ -1,4 +1,4 @@
-import { OneOf } from './type-utils/OneOf'
+import { OneOf } from '../../type-utils/OneOf'
 import { Card } from './Card'
 
 /**

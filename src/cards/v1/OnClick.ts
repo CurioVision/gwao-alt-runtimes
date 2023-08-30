@@ -1,24 +1,24 @@
 import { Action as ActionMarkup } from './Action'
 import { Card as CardMarkup } from './Card'
-import { OneOf } from './type-utils/OneOf'
+import { OneOf } from '../../type-utils/OneOf'
 
 export type OnClick = OneOf<Action | OpenLink | OpenDynamicLinkAction | Card>
 
 /**
  * An action that describes the behavior when the form is submitted. For example, an Apps Script can be invoked to handle the form. If the action is triggered, the form values are sent to the server.
  */
-export type Action = {
+type Action = {
   action: ActionMarkup
 }
 
 /**
  * If specified, this onClick triggers an open link action.
  */
-export type OpenLink = {
+type OpenLink = {
   openLink: OpenLinkMarkup
 }
 
-export type OpenLinkMarkup = {
+type OpenLinkMarkup = {
   url: string
   openAs?: 'FULL_SIZE' | 'OVERLAY'
   onClose?: 'NOTHING' | 'RELOAD'
@@ -30,7 +30,7 @@ export type OpenLinkMarkup = {
  * This differs from the OpenLink above in that this needs to talk to server to get the link.
  * Thus some preparation work is required for web client to do before the open link action response comes back.
  */
-export type OpenDynamicLinkAction = {
+type OpenDynamicLinkAction = {
   openDynamicLinkAction: ActionMarkup
 }
 
@@ -39,6 +39,6 @@ export type OpenDynamicLinkAction = {
  *
  * Supported by Google Workspace Add-ons, but not Chat apps.
  */
-export type Card = {
+type Card = {
   card: CardMarkup
 }

@@ -16,13 +16,13 @@ export type Widget = {
 } & WidgetTypes
 
 type WidgetTypes =
-  | TextParagraph
-  | Image
-  | DecoratedText
   | ButtonList
-  | TextInput
-  | SelectionInput
+  // | Columns // TODO: Add columns https://developers.google.com/workspace/add-ons/reference/rpc/google.apps.card.v1#columns
   | DateTimePicker
+  | DecoratedText
   | Divider
   | Grid
-// | Columns
+  | Image
+  | SelectionInput
+  | TextInput
+  | TextParagraph

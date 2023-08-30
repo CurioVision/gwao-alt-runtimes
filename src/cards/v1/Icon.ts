@@ -1,5 +1,5 @@
 import { ImageType } from './ImageType'
-import { OneOf } from './type-utils/OneOf'
+import { OneOf } from '../../type-utils/OneOf'
 
 type IconUrl = {
   /**
