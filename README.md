@@ -4,15 +4,16 @@
 
 ---
 
-**NOTE:** This package is still in development. It is not quite ready for use. There a number of types that still need to be added. Additionally, I'd like to add the Card Framework version number (currently v1) to the import path in order to prepare for the future when Google releases google.apps.card.v2.
+This package contains TypeScript types for the Google Workspace Add-ons for Alternate Runtimes API. To my knowledge, there is no official package for the Google Workspace Add-ons for Alternate Runtimes API. This package fills that gap.
 
----
+There are two main types of exports:
 
-This package contains types for the Google Workspace Add-ons for Alternate Runtimes API.
+- Cards (see [RenderActions](./src/cards/v1/RenderActions.ts))
+  - Based on [google.apps.card.v1](https://developers.google.com/workspace/add-ons/reference/rpc/google.apps.card.v1#index)
+- Events (see [EventObject](./src/events/EventObject.ts))
+  - Based on [_Google Workspace Add-ons for Alternate Runtimes_ Event JSON Schemas](https://developers.google.com/workspace/add-ons/guides/alternate-runtimes#json_event_objects)
 
-It is based on [google.apps.card.v1](https://developers.google.com/workspace/add-ons/reference/rpc/google.apps.card.v1#index)
-
-To my knowledge, there is no official package for the CardFramework json types yet. This package fills that gap.
+TODO: Organize exports to delineate Cards vs Event exports (bonus, also delineate v1 cards in anticipation of a v2 from Google.)
 
 ## Development
 
